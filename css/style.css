@@ -1,5 +1,7 @@
 #content {
 	width: 0 auto;
 	border:1px dashed #333;
+	border-radius: 10px;
 	color:#333;
+	background: #eee;
 }
