@@ -1,5 +1,6 @@
 body {
-background: transparent url(https://farm2.staticflickr.com/1920/44190048305_bbd263a394_o.jpg) ;
+background: transparent url(https://farm2.staticflickr.com/1920/44190048305_bbd263a394_o.jpg);
+filter:blur(0.25px);
 }
 /*#content {
 	width: 0 auto;
