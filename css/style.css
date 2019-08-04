@@ -25,13 +25,28 @@ transition-timing-function: ease-in-out !important;
 -o-transition: all linear 0.3s !important;
 transition: all linear 0.3s !important;
 }
-.myint {
+.nodrus {
 color: #000;
 font-weight: bold;
 font-size: 75%;
 position: absolute;
 bottom: 1.5%;
 right: 1.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.sharij {
+color: #000;
+font-weight: bold;
+font-size: 75%;
+position: absolute;
+bottom: 1.5%;
+right: 8.5%;
 padding: 0.7% 1.9%;
 border: 1px solid #000;
 border-radius: 5px;
@@ -70,7 +85,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.myint:hover, .myok:hover, .myvk:hover {
+.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
