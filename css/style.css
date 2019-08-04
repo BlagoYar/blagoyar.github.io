@@ -15,6 +15,16 @@ background: transparent url(../img/bg.jpg);
 	height:50px;
 	text-align: center;
 }
+a {
+transition-duration: 0.05s !important;
+transition-property:background, background-color, color, text-shadow !important;
+transition-timing-function: ease-in-out !important;
+-webkit-transition: all linear 0.3s !important;
+-moz-transition: all linear 0.3s !important;
+-ms-transition: all linear 0.3s !important;
+-o-transition: all linear 0.3s !important;
+transition: all linear 0.3s !important;
+}
 .myint {
 color: #fff;
 position: absolute;
@@ -22,6 +32,7 @@ bottom: 25px;
 right: 25px;
 padding: 10px 20px;
 border: 1px dashed #000;
+border-radius: 5px;
 box-shadow: 0 0 10px #222;
 text-decoration: none;
 vertical-align: bottom;
