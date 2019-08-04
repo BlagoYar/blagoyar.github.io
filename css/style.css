@@ -42,6 +42,6 @@ weight: 60px;
 }
 .myint:hover {
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
-box-shadow: 0 0 #fff;
+box-shadow: 0 0 10 #fff;
 border-color: #fff;
 }
