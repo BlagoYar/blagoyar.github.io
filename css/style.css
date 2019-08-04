@@ -17,4 +17,8 @@ background: transparent url(../img/bg.jpg);
 .myint {
 bottom: 25px;
 right: 25px;
+padding: 10px 20px;
+border: 1px dashed #000;
+box-shadow: 0 0 10px #222;
+text-decoration: none;
 }
