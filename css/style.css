@@ -9,8 +9,12 @@ background: transparent url(../img/bg.jpg);
 	background: #eee;
 	text-align: center;
 }*/
-p#test {
+#test {
 	width:300px;
 	height:50px;
 	text-align: center;
+}
+.myint {
+bottom: 25px;
+right: 25px;
 }
