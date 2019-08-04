@@ -7,8 +7,9 @@ background: transparent url(../img/bg.jpg);
 	border-radius: 10px;
 	color:#333;
 	background: #eee;
-	text-align: center;
-}*/
+	text-align: center;*/
+	position: relative;
+}
 #test {
 	width:300px;
 	height:50px;
@@ -16,6 +17,7 @@ background: transparent url(../img/bg.jpg);
 }
 .myint {
 color: #fff;
+position: absolute;
 bottom: 25px;
 right: 25px;
 padding: 10px 20px;
