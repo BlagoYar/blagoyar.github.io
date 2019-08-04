@@ -15,6 +15,7 @@ background: transparent url(../img/bg.jpg);
 	text-align: center;
 }
 .myint {
+color: #fff;
 bottom: 25px;
 right: 25px;
 padding: 10px 20px;
@@ -24,4 +25,9 @@ text-decoration: none;
 vertical-align: bottom;
 height: 20px;
 weight: 60px;
+}
+.myint:hover {
+text-shadow: 0 0 1px #fff;
+box-shadow: 0 0 #fff;
+border-color: #fff;
 }
