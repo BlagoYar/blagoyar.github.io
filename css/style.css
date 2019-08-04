@@ -27,6 +27,7 @@ transition: all linear 0.3s !important;
 }
 .myint {
 color: #fff;
+font-weight: bold;
 position: absolute;
 bottom: 25px;
 right: 25px;
