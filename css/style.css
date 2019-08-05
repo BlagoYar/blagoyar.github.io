@@ -28,7 +28,7 @@ transition: all linear 0.3s !important;
 .nodrus {
 color: #888;
 font-weight: bold;
-font-size: 75%;
+font-size: 8pt;
 position: absolute;
 bottom: 1.5%;
 right: 1.5%;
@@ -43,7 +43,7 @@ vertical-align: bottom;
 .sharij {
 color: #000;
 font-weight: bold;
-font-size: 75%;
+font-size: 8pt;
 position: absolute;
 bottom: 1.5%;
 right: 9.1%;
@@ -58,7 +58,7 @@ vertical-align: bottom;
 .myok {
 color: #000;
 font-weight: bold;
-font-size: 75%;
+font-size: 8pt;
 position: absolute;
 bottom: 1.5%;
 left: 1.5%;
@@ -73,7 +73,7 @@ vertical-align: bottom;
 .myvk {
 color: #000;
 font-weight: bold;
-font-size: 75%;
+font-size: 8pt;
 position: absolute;
 bottom: 1.5%;
 left: 8.5%;
