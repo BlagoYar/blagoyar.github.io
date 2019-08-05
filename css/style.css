@@ -26,8 +26,8 @@ transition-timing-function: ease-in-out !important;
 transition: all linear 0.3s !important;
 }
 .nodrus {
-color: #aaa;
-font-weight: bold;
+color: #bbb;
+~font-weight: bold;
 font-size: 8pt;
 position: absolute;
 bottom: 1.5%;
@@ -41,7 +41,7 @@ text-decoration: none;
 vertical-align: bottom;
 }
 .sharij {
-color: #000;
+color: #bbb;
 font-weight: bold;
 font-size: 8pt;
 position: absolute;
@@ -56,7 +56,7 @@ text-decoration: none;
 vertical-align: bottom;
 }
 .myok {
-color: #000;
+color: #bbb;
 font-weight: bold;
 font-size: 8pt;
 position: absolute;
@@ -71,7 +71,7 @@ text-decoration: none;
 vertical-align: bottom;
 }
 .myvk {
-color: #000;
+color: #bbb;
 font-weight: bold;
 font-size: 8pt;
 position: absolute;
