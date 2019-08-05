@@ -26,7 +26,7 @@ transition-timing-function: ease-in-out !important;
 transition: all linear 0.3s !important;
 }
 .nodrus {
-color: #888;
+color: #aaa;
 font-weight: bold;
 font-size: 8pt;
 position: absolute;
