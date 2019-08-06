@@ -1,5 +1,9 @@
 @import url('//fonts.googleapis.com/css?family=Ruslan+Display&display=swap&subset=cyrillic');
-
+.title {
+    font-family: 'Ruslan Display';
+    font-weight: normal;
+    font-style: normal;
+}
 body {
 background: transparent url(../img/bg.jpg);
 }
@@ -13,8 +17,8 @@ background: transparent url(../img/bg.jpg);
 	position: relative;
 }
 .title {
-font-family: 'Ruslan Display', cursive;
-font-size: 100pt;
+font-family: "Ruslan Display";
+font-size: 40px;
 position: absolute;
 top: 5%;
 }
