@@ -93,8 +93,8 @@ background-color: rgba(26,26,26, .7);
 
 @media (min-width: 380px) and (max-width: 720px) {
 body {
-background: transparent url(../img/bg.jpg);
-background-position-x: -125%; 
+background: transparent url(../img/bg.jpg) no-repeat;
+background-position-x: 25%; 
 }
 .nodrus {
 color: #ccc;
