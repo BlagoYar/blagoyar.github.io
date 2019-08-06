@@ -10,11 +10,6 @@ background: transparent url(../img/bg.jpg);
 	text-align: center;*/
 	position: relative;
 }
-#test {
-	width:300px;
-	height:50px;
-	text-align: center;
-}
 a {
 transition-duration: 0.05s !important;
 transition-property:background, background-color, color, text-shadow !important;
@@ -97,6 +92,10 @@ background-color: rgba(26,26,26, .7);
 }
 
 @media (min-width: 380px) and (max-width: 720px) {
+body {
+background: transparent url(../img/bg.jpg);
+background-position-x: -50%; 
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
