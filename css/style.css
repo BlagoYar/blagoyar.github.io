@@ -96,7 +96,7 @@ background-color: rgba(26,26,26, .7);
 }
 }
 
-@media (min-width: 480px) and (max-width: 720px) {
+@media (min-width: 380px) and (max-width: 720px) {
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
@@ -157,7 +157,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-	.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
