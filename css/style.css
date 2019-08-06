@@ -10,7 +10,7 @@ background: transparent url(../img/bg.jpg);
 	text-align: center;*/
 	position: relative;
 }
-.title {
+body * {
 font-family: "Ruslan Display";
 font-weight: normal;
 font-style: normal;
