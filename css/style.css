@@ -94,10 +94,11 @@ border: 1px dashed #000;
 background-color: rgba(26,26,26, .7);
 }
 
-@media (min-width: 480px) and (max-width: 720px)
+@media (min-width: 480px) and (max-width: 720px) {
 .myok, .myvk {
-float: left;
+left: 9%;
 }
 .sharij, .nodrus {
-float: right;
+right: 10%;
+}
 }
