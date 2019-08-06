@@ -13,7 +13,7 @@ background: transparent url(../img/bg.jpg);
 	position: relative;
 }
 header {
-font: 20pt bold 'Ruslan Display';
+font: 150pt bold 'Ruslan Display';
 }
 a {
 transition-duration: 0.05s !important;
