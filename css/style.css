@@ -97,10 +97,64 @@ background-color: rgba(26,26,26, .7);
 }
 
 @media (min-width: 480px) and (max-width: 720px) {
-.myok, .myvk {
-left: 10.5%;
+.nodrus {
+color: #ccc;
+~font-weight: bold;
+font-size: 8pt;
+position: absolute;
+bottom: 1.5%;
+right: 1.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
 }
-.sharij, .nodrus {
+.sharij {
+color: #ccc;
+font-weight: bold;
+font-size: 8pt;
+position: absolute;
+bottom: 1.5%;
 right: 10.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myok {
+color: #ccc;
+font-weight: bold;
+font-size: 8pt;
+position: absolute;
+bottom: 1.5%;
+left: 1.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myvk {
+color: #ccc;
+font-weight: bold;
+font-size: 8pt;
+position: absolute;
+bottom: 1.5%;
+left: 10.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
 }
 }
