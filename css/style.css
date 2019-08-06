@@ -12,8 +12,9 @@ background: transparent url(../img/bg.jpg);
 	text-align: center;*/
 	position: relative;
 }
-h1 {
+#title {
 font-family: 'Ruslan Display', cursive;
+font-size: 100pt;
 }
 a {
 transition-duration: 0.05s !important;
