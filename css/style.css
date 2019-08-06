@@ -25,6 +25,7 @@ transition-timing-function: ease-in-out !important;
 -o-transition: all linear 0.3s !important;
 transition: all linear 0.3s !important;
 }
+@media (min-width: 720px) and (max-width: 3000px) {
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
@@ -93,12 +94,13 @@ border-color: #fff;
 border: 1px dashed #000;
 background-color: rgba(26,26,26, .7);
 }
+}
 
 @media (min-width: 480px) and (max-width: 720px) {
 .myok, .myvk {
-left: 9%;
+left: 10.5%;
 }
 .sharij, .nodrus {
-right: 10%;
+right: 10.5%;
 }
 }
