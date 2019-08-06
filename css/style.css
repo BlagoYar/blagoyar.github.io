@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap');
+
 body {
 background: transparent url(../img/bg.jpg);
 }
@@ -9,6 +11,9 @@ background: transparent url(../img/bg.jpg);
 	background: #eee;
 	text-align: center;*/
 	position: relative;
+}
+header {
+font: 20pt bold 'Ruslan Display';
 }
 a {
 transition-duration: 0.05s !important;
