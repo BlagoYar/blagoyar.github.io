@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Ruslan Display';
-	src: url('/fonts/RuslanDisplay.eot');
+	src: url('../fonts/RuslanDisplay.eot');
 	src: local('Ruslan Display Regular'), local('RuslanDisplay'),
-		url('/fonts/RuslanDisplay.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/RuslanDisplay.woff') format('woff'),
-		url('/fonts/RuslanDisplay.ttf') format('truetype');
+		url('../fonts/RuslanDisplay.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RuslanDisplay.woff') format('woff'),
+		url('../fonts/RuslanDisplay.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
