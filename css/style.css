@@ -108,7 +108,7 @@ background-color: rgba(26,26,26, .7);
 
 @media (min-width: 725px) and (max-width: 800px) {
 body {
-background: transparent url(../img/bg.jpg) no-repeat;
+background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 15%;
 }
 .nodrus {
@@ -183,7 +183,7 @@ background-color: rgba(26,26,26, .7);
 
 @media (min-width: 380px) and (max-width: 720px) {
 body {
-background: transparent url(../img/bg.jpg) no-repeat;
+background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 25%; 
 }
 .nodrus {
