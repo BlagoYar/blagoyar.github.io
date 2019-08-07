@@ -1,5 +1,5 @@
 body {
-background: #333 url(../img/bg.jpg);
+background: #333 url(../img/bg.jpg) no-repeat;
 }
 /*#content {
 	width: 0 auto;
