@@ -12,7 +12,7 @@ body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-size: 100%;
 }
-body * {
+#title * {
 font-family: "Ruslan Display";
 font-weight: normal;
 font-style: normal;
