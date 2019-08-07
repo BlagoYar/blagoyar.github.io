@@ -1,7 +1,4 @@
-body {
-background: #333 url(../img/bg.jpg) no-repeat;
-background-size: 100%;
-}
+
 /*#content {
 	width: 0 auto;
 	border:1px dashed #333;
@@ -29,7 +26,12 @@ transition-timing-function: ease-in-out !important;
 -o-transition: all linear 0.3s !important;
 transition: all linear 0.3s !important;
 }
-@media (min-width: 800px) and (max-width: 3000px) {
+
+@media (min-width: 800px) and (max-width: 1920px) {
+body {
+background: #333 url(../img/bg.jpg) no-repeat;
+background-size: 100%;
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
