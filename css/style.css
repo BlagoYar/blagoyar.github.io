@@ -1,6 +1,5 @@
 body {
-background: transparent url(../img/bg.jpg);
-background: #333;
+background: #333 url(../img/bg.jpg);
 }
 /*#content {
 	width: 0 auto;
