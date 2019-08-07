@@ -28,7 +28,82 @@ transition-timing-function: ease-in-out !important;
 -o-transition: all linear 0.3s !important;
 transition: all linear 0.3s !important;
 }
-@media (min-width: 720px) and (max-width: 3000px) {
+@media (min-width: 800px) and (max-width: 3000px) {
+.nodrus {
+color: #ccc;
+~font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 1.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.sharij {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 9.1%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myok {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 1.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myvk {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 8.5%;
+padding: 0.7% 1.9%;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+color: #fff;
+text-shadow: 0 0 1px #fff, 0 0 2px #fff;
+box-shadow: 0 0 15px 1px #000;
+border-color: #fff;
+border: 1px dashed #000;
+background-color: rgba(26,26,26, .7);
+}
+}
+
+@media (min-width: 725px) and (max-width: 800px) {
+body {
+background: transparent url(../img/bg.jpg) no-repeat;
+background-position-x: 15%;
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
