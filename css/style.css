@@ -19,6 +19,7 @@ font-style: normal;
 font-size: 40px;
 position: absolute;
 top: 5%;
+margin: 0 auto;
 }
 .title {
 color: #fff;
@@ -185,7 +186,7 @@ background-color: rgba(26,26,26, .7);
 }
 }
 
-@media (min-width: 380px) and (max-width: 720px) {
+@media (min-width: 380px) and (max-width: 725px) {
 body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 25%; 
