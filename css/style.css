@@ -32,7 +32,10 @@ transition: all linear 0.3s !important;
 }
 
 @media (min-width: 800px) and (max-width: 1920px) {
-
+body {
+background: #333 url(../img/bg.jpg) no-repeat;
+background-position-x: 15%;
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
