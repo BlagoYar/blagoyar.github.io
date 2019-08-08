@@ -604,7 +604,11 @@ margin-left: 60%;
 #title {
 margin-left: 50%;
 }
-@media (min-width: 240px) and (max-height: 320px) {
+@media (min-width: 240px) and (max-width: 450px) {
+#title {
+margin-left: 70%;
+}
+@media (max-width: 240px) and (max-height: 320px) {
 #title {
 margin-left: 75%;
 }
