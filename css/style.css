@@ -22,7 +22,7 @@ top: 5%;
 }
 .title {
 color: #fff;
-text-shadow: 0 0 10px #fff, text-shadow: 0 0 15px #fff;
+text-shadow: 0 0 10px #fff, text-shadow, 0 0 15px #fff;
 word-wrap: break-word;
 }
 a {
