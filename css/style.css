@@ -16,7 +16,6 @@ background-size: 100%;
 font-family: "Ruslan Display";
 font-weight: normal;
 font-style: normal;
-font-size: 40px;
 position: absolute;
 top: 5%;
 }
@@ -40,6 +39,9 @@ transition: all linear 0.3s !important;
 body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 15%;
+}
+.title {
+font-size: 50px;
 }
 .nodrus {
 color: #ccc;
@@ -116,6 +118,9 @@ body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 25%; 
 }
+.title {
+font-size: 45px;
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
@@ -190,6 +195,9 @@ background-color: rgba(26,26,26, .7);
 body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 30%;
+}
+.title {
+font-size: 40px;
 }
 .nodrus {
 color: #ccc;
@@ -266,6 +274,9 @@ body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 30%; 
 }
+.title {
+font-size: 25px;
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
@@ -339,6 +350,9 @@ background-color: rgba(26,26,26, .7);
 body {
 background: #333 url(../img/bg_mob_h.jpg) no-repeat;
 background-position-x: 30%; 
+}
+.title {
+font-size: 18px;
 }
 .nodrus {
 color: #ccc;
@@ -415,7 +429,7 @@ background: #333 url(../img/bg_mob_h.jpg) no-repeat;
 background-position-x: 30%; 
 }
 .title {
-font-size: 8pt;
+font-size: 20px;
 }
 .nodrus {
 color: #ccc;
@@ -491,6 +505,9 @@ background-color: rgba(26,26,26, .7);
 body {
 background: #333 url(../img/bg_mob_w.jpg) no-repeat;
 background-position-x: 30%; 
+}
+.title {
+font-size: 20px;
 }
 .nodrus {
 color: #ccc;
