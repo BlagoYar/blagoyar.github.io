@@ -20,9 +20,6 @@ font-size: 40px;
 position: absolute;
 top: 5%;
 }
-#title {
-margin: 0 auto;
-}
 .title {
 color: #fff;
 text-shadow: 0 0 10px #fff;
@@ -261,4 +258,21 @@ border-color: #fff;
 border: 1px dashed #000;
 background-color: rgba(26,26,26, .7);
 }
+}
+@media (min-width: 1250px) and (max-width: 1920px) {
+#title {
+margin-left: 85%;
+word-wrap:break-word;
+}
+/*
+}
+@media (min-width: 800px) and (max-width: 12500px) {
+#title {
+margin-left: 75%;
+}
+}
+@media (min-width: 450px) and (max-width: 800px) {
+#title {
+margin-left: 65%;
+}*/
 }
