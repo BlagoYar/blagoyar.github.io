@@ -271,8 +271,12 @@ margin-left: 85%;
 margin-left: 75%;
 }
 }
-@media (min-width: 450px) and (max-width: 800px) {
+@media (min-width: 545px) and (max-width: 800px) {
 #title {
 margin-left: 65%;
 }
+}
+@media (min-width: 450px) and (max-width: 545px) {
+#title {
+margin-left: 55%;
 }
