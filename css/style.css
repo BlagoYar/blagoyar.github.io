@@ -266,7 +266,8 @@ body {
 background: #333 url(../img/bg.jpg) no-repeat;
 background-position-x: 35%; 
 }
-	
+}
+
 @media (min-width: 1250px) and (max-width: 1920px) {
 #title {
 margin-left: 85%;
