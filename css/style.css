@@ -587,20 +587,20 @@ background-position-x: 40%;
 }
 @media (min-width: 1250px) and (max-width: 1920px) {
 #title {
-margin-left: 85%;
+margin-left: 80%;
 }
 }
 @media (min-width: 800px) and (max-width: 1250px) {
 #title {
-margin-left: 75%;
+margin-left: 70%;
 }
 }
 @media (min-width: 545px) and (max-width: 800px) {
 #title {
-margin-left: 65%;
+margin-left: 60%;
 }
 }
 @media (min-width: 450px) and (max-width: 545px) {
 #title {
-margin-left: 55%;
+margin-left: 50%;
 }
