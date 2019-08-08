@@ -261,9 +261,232 @@ background-color: rgba(26,26,26, .7);
 }
 }
 
-@media (min-width: 380px) and (max-width: 725px) {
+@media (min-width: 320px) and (max-width: 725px) {
 body {
 background: #333 url(../img/bg.jpg) no-repeat;
+background-position-x: 30%; 
+}
+.nodrus {
+color: #ccc;
+~font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 1.5%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.sharij {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 17%;
+padding: 1.5% 2.5%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myok {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 1.5%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myvk {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 17%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+color: #fff;
+text-shadow: 0 0 1px #fff, 0 0 2px #fff;
+box-shadow: 0 0 15px 1px #000;
+border-color: #fff;
+border: 1px dashed #000;
+background-color: rgba(26,26,26, .7);
+}
+}
+@media (min-width: 240px) and (max-height: 320px) {
+body {
+background: #333 url(../img/bg_mob_h.jpg) no-repeat;
+background-position-x: 30%; 
+}
+.nodrus {
+color: #ccc;
+~font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 1.5%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.sharij {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 17%;
+padding: 1.5% 2.5%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myok {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 1.5%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myvk {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 17%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+color: #fff;
+text-shadow: 0 0 1px #fff, 0 0 2px #fff;
+box-shadow: 0 0 15px 1px #000;
+border-color: #fff;
+border: 1px dashed #000;
+background-color: rgba(26,26,26, .7);
+}
+}
+@media (min-width: 178px) and (max-width: 240px) {
+body {
+background: #333 url(../img/bg_mob_h.jpg) no-repeat;
+background-position-x: 30%; 
+}
+.nodrus {
+color: #ccc;
+~font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 1.5%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.sharij {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+right: 17%;
+padding: 1.5% 2.5%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myok {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 1.5%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.myvk {
+color: #ccc;
+font-weight: bold;
+font-size: 8.5pt;
+position: absolute;
+bottom: 1.5%;
+left: 17%;
+padding: 1.5% 4%;
+border: 1px solid #000;
+border-radius: 3px;
+box-shadow: 0 0 10px #222;
+background-color: rgba(26,26,26, .4);
+text-decoration: none;
+vertical-align: bottom;
+}
+.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+color: #fff;
+text-shadow: 0 0 1px #fff, 0 0 2px #fff;
+box-shadow: 0 0 15px 1px #000;
+border-color: #fff;
+border: 1px dashed #000;
+background-color: rgba(26,26,26, .7);
+}
+}
+
+@media (min-height: 320px) and (max-height: 240px) {
+body {
+background: #333 url(../img/bg_mob_w.jpg) no-repeat;
 background-position-x: 30%; 
 }
 .nodrus {
