@@ -261,7 +261,7 @@ background-color: rgba(26,26,26, .7);
 }
 }
 
-@media (min-width: 800px) and (max-width: 1250px) {
+@media (min-width: 1250px) and (max-width: 1920px) {
 #title {
 margin-left: 85%;
 }
