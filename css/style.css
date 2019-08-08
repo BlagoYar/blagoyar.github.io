@@ -429,7 +429,7 @@ background: #333 url(../img/bg_mob_h.jpg) no-repeat;
 background-position-x: 30%; 
 }
 .title {
-font-size: 20px;
+font-size: 15px;
 }
 .nodrus {
 color: #ccc;
@@ -603,6 +603,10 @@ margin-left: 60%;
 @media (min-width: 450px) and (max-width: 545px) {
 #title {
 margin-left: 50%;
+}
+@media (min-width: 160px) and (max-height: 240px) {
+#title {
+margin-left: 40%;
 }
 
 @media (min-width: 320px) and (max-height: 240px) {
