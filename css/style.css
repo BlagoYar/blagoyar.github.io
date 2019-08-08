@@ -414,6 +414,9 @@ body {
 background: #333 url(../img/bg_mob_h.jpg) no-repeat;
 background-position-x: 30%; 
 }
+.title {
+font-size: 8pt;
+}
 .nodrus {
 color: #ccc;
 ~font-weight: bold;
