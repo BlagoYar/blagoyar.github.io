@@ -189,7 +189,7 @@ background-color: rgba(26,26,26, .7);
 @media (min-width: 380px) and (max-width: 725px) {
 body {
 background: #333 url(../img/bg.jpg) no-repeat;
-background-position-x: 25%; 
+background-position-x: 30%; 
 }
 .nodrus {
 color: #ccc;
@@ -264,7 +264,7 @@ background-color: rgba(26,26,26, .7);
 @media (min-width: 380px) and (max-width: 545px) {
 body {
 background: #333 url(../img/bg.jpg) no-repeat;
-background-position-x: 35%; 
+background-position-x: 40%; 
 }
 }
 
