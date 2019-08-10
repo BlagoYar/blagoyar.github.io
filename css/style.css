@@ -598,7 +598,7 @@ margin-left: 60%;
 #title {
 margin-left: 50%;
 }
-@media (min-width: 240px) and (max-width: 450px) {
+@media (min-width: 240px) and (max-width: 449px) {
 #title {
 margin-left: 70%;
 }
