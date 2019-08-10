@@ -579,12 +579,6 @@ background-color: rgba(26,26,26, .7);
 }
 }
 
-@media (min-width: 380px) and (max-width: 545px) {
-body {
-background: #333 url(../img/bg.jpg) no-repeat;
-background-position-x: 40%; 
-}
-}
 @media (min-width: 1250px) and (max-width: 1920px) {
 #title {
 margin-left: 80%;
