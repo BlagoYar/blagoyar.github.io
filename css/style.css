@@ -44,7 +44,7 @@ background-position-x: 15%;
 font-size: 50px;
 font-family: "Ruslan Display";
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -59,7 +59,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -104,7 +104,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
@@ -123,7 +123,7 @@ background-position-x: 25%;
 font-size: 45px;
 font-family: "Ruslan Display";
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -138,7 +138,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -183,7 +183,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
@@ -202,7 +202,7 @@ background-position-x: 30%;
 font-size: 40px;
 font-family: "Ruslan Display";
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -217,7 +217,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -262,7 +262,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
@@ -281,7 +281,7 @@ background-position-x: 30%;
 font-size: 40px;
 font-family: "Ruslan Display";
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -296,7 +296,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -341,7 +341,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
@@ -359,7 +359,7 @@ background-position-x: 30%;
 font-size: 10px;
 font-family: "Ruslan Display";
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -374,7 +374,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -419,7 +419,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
@@ -437,7 +437,7 @@ background-position-x: 30%;
 font-size: 10px;
 
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -452,7 +452,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -497,7 +497,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
@@ -516,7 +516,7 @@ background-position-x: 30%;
 font-size: 10px;
 font-family: "Ruslan Display";
 }
-.nodrus {
+.mytw {
 color: #ccc;
 ~font-weight: bold;
 font-size: 8.5pt;
@@ -531,7 +531,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.sharij {
+.myfb {
 color: #ccc;
 font-weight: bold;
 font-size: 8.5pt;
@@ -576,7 +576,7 @@ background-color: rgba(26,26,26, .4);
 text-decoration: none;
 vertical-align: bottom;
 }
-.nodrus:hover, .sharij:hover, .myok:hover, .myvk:hover {
+.mytw:hover, .myfb:hover, .myok:hover, .myvk:hover {
 color: #fff;
 text-shadow: 0 0 1px #fff, 0 0 2px #fff;
 box-shadow: 0 0 15px 1px #000;
