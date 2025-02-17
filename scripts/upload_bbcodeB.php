@@ -193,7 +193,7 @@ ini_set('display_errors', 1);
 
         $background->annotateImage($draw, $textX, $textY, 0, $text);
 
-        $lensImagePath = '/var/www/html/upl.pp.ua/scripts/lens-white.png';
+        $lensImagePath = '/var/www/html/domain.com/scripts/lens-white.png';
         $lens = new Imagick($lensImagePath);
         $lensX = $background->getImageWidth() - $lens->getImageWidth() - 12 - $transparencyPadding;
         $lensY = $background->getImageHeight() - $lens->getImageHeight() - 12 - $transparencyPadding;
@@ -293,7 +293,7 @@ ini_set('display_errors', 1);
 
         $background->annotateImage($draw, $textX, $textY, 0, $text);
 
-        $lensImagePath = '/var/www/html/upl.pp.ua/scripts/lens-white.png';
+        $lensImagePath = '/var/www/html/domain.com/scripts/lens-white.png';
         $lens = new Imagick($lensImagePath);
         $lensX = $background->getImageWidth() - $lens->getImageWidth() - 12 - $transparencyPadding;
         $lensY = $background->getImageHeight() - $lens->getImageHeight() - 12 - $transparencyPadding;
