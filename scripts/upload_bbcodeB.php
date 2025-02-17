@@ -1,10 +1,13 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 
+    define('VALID_TOKEN', getenv('VALID_TOKEN_BBCODEb'));
     define('UPLOAD_DIR_IMAGES', getenv('UPLOAD_DIR_IMAGES'));
     define('UPLOAD_DIR_FILES', getenv('UPLOAD_DIR_FILES'));
-    define('VALID_TOKEN', getenv('VALID_TOKEN_BBCODEb'));
+    define('VALID_DOMAIN', getenv('VALID_DOMAIN'));
+    define('LENS_PATH', getenv('LENS_PATH'));
+    define('FONT_PATH', getenv('FONT_PATH'));
 
     class FileUploader {
         private $validToken;
@@ -69,10 +72,10 @@ ini_set('display_errors', 1);
                         $uploadFileURI = rawurlencode(basename($uploadFile));
                         $thumbnailFileURI = rawurlencode(basename($thumbnailFile));
 
-                        return '[url=https://domain.com/' . $uploadFileURI . '][img]https://domain.com/' . $thumbnailFileURI . '[/img][/url]';
-                    } else {
-                        $uploadFileURI = rawurlencode(basename($uploadFile));
-                        return 'https://domain.com/' . $uploadFileURI;
+                        return '[url=https://' . VALID_DOMAIN . '/' . $uploadFileURI . '][img]' . 'https://' .VALID_DOMAIN . '/' . $thumbnailFileURI . '[/img][/url]';
+                } else {
+                    $uploadFileURI = rawurlencode(basename($uploadFile));
+                    return 'https://' . VALID_DOMAIN . '/' . $uploadFileURI;
                     }
                 } else {
                     throw new Exception("Ошибка при перемещении файла.");
@@ -175,7 +178,7 @@ ini_set('display_errors', 1);
 
         $draw = new ImagickDraw();
         $draw->setFillColor('#FFFFFF');
-        $draw->setFont('/usr/share/fonts/truetype/tahoma/tahoma.ttf');
+        $draw->setFont(FONT_PATH . '/tahoma.ttf');
         $draw->setFontSize(12);
         $draw->setGravity(Imagick::GRAVITY_NORTHWEST);
 
@@ -193,7 +196,7 @@ ini_set('display_errors', 1);
 
         $background->annotateImage($draw, $textX, $textY, 0, $text);
 
-        $lensImagePath = '/var/www/html/domain.com/scripts/lens-white.png';
+        $lensImagePath = 'https://' . VALID_DOMAIN . '/' . LENS_PATH . '/lens-white.png';
         $lens = new Imagick($lensImagePath);
         $lensX = $background->getImageWidth() - $lens->getImageWidth() - 12 - $transparencyPadding;
         $lensY = $background->getImageHeight() - $lens->getImageHeight() - 12 - $transparencyPadding;
@@ -275,7 +278,7 @@ ini_set('display_errors', 1);
 
         $draw = new ImagickDraw();
         $draw->setFillColor('#FFFFFF');
-        $draw->setFont('/usr/share/fonts/truetype/tahoma/tahoma.ttf');
+        $draw->setFont(FONT_PATH . '/tahoma.ttf');
         $draw->setFontSize(12);
         $draw->setGravity(Imagick::GRAVITY_NORTHWEST);
 
@@ -293,7 +296,7 @@ ini_set('display_errors', 1);
 
         $background->annotateImage($draw, $textX, $textY, 0, $text);
 
-        $lensImagePath = '/var/www/html/domain.com/scripts/lens-white.png';
+        $lensImagePath = 'https://' . VALID_DOMAIN . '/' . LENS_PATH . '/lens-white.png';
         $lens = new Imagick($lensImagePath);
         $lensX = $background->getImageWidth() - $lens->getImageWidth() - 12 - $transparencyPadding;
         $lensY = $background->getImageHeight() - $lens->getImageHeight() - 12 - $transparencyPadding;
