@@ -69,10 +69,10 @@ ini_set('display_errors', 1);
                         $uploadFileURI = rawurlencode(basename($uploadFile));
                         $thumbnailFileURI = rawurlencode(basename($thumbnailFile));
 
-                        return '[url=https://upl.pp.ua/' . $uploadFileURI . '][img]https://upl.pp.ua/' . $thumbnailFileURI . '[/img][/url]';
+                        return '[url=https://domain.com/' . $uploadFileURI . '][img]https://domain.com/' . $thumbnailFileURI . '[/img][/url]';
                     } else {
                         $uploadFileURI = rawurlencode(basename($uploadFile));
-                        return 'https://upl.pp.ua/' . $uploadFileURI;
+                        return 'https://domain.com/' . $uploadFileURI;
                     }
                 } else {
                     throw new Exception("Ошибка при перемещении файла.");
